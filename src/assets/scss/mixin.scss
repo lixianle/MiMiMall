@@ -26,3 +26,14 @@
   background: url($img) no-repeat center;
   background-size: contain;
 }
+@mixin hL($h:0,$lh:$h) {
+  height: $h;
+  line-height: $lh;
+}
+@mixin wH($w:0,$h:0) {
+  width:$w;
+  height: $h;
+}
+@mixin border($w:1px,$s:solid,$c:#e5e5e5) {
+  border: $w $s $c;
+}

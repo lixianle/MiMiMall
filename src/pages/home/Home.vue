@@ -1,11 +1,20 @@
 <template>
-  <div class="complate">complate</div>
+  <div class="home">
+    <nav-header></nav-header>
+    <router-view></router-view>
+    <nav-footer></nav-footer>
+  </div>
 </template>
 
 <script>
+import NavHeader from "../../common/NavHeader.vue";
+import NavFooter from "../../common/NavFooter.vue";
+
 export default {
-  name: "Complate",
+  name: "Home",
+  components: {
+    NavHeader,
+    NavFooter,
+  },
 };
 </script>
-
-<style lang="scss" scoped></style>

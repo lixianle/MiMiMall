@@ -1,9 +1,11 @@
 <template>
-  <div class="home">Hello World!</div>
+  <div class="complate">complate</div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Complate",
 };
 </script>
+
+<style lang="scss" scoped></style>

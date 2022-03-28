@@ -1,10 +1,10 @@
 <template>
-  <div class="complate">complate</div>
+  <div class="complate">index</div>
 </template>
 
 <script>
 export default {
-  name: "Complate",
+  name: "HomeIndex",
 };
 </script>
 

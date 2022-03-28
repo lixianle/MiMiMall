@@ -1,11 +1,20 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import HelloWorld from "../pages/HelloWorld.vue";
+import Home from "../pages/home/Home.vue";
+import HomeIndex from "../pages/home/components/HomeIndex.vue";
 
 const routes = [
   {
     path: "/",
-    name: "HelloWorld",
-    component: HelloWorld,
+    name: "Home",
+    component: Home,
+    redirect: "/index",
+    children: [
+      {
+        path: "/index",
+        name: "HomeIndex",
+        component: HomeIndex,
+      },
+    ],
   },
 ];
 

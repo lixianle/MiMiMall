@@ -1,10 +1,11 @@
 @import "./mixin.scss";
+
+// 安全宽度
 .container {
   width: 1226px;
   margin: 0 auto;
 }
 
-// 未更换
 a {
   img {
     width: 100%;
@@ -12,7 +13,6 @@ a {
   }
 }
 
-// 
 input {
   outline: none;
   box-sizing: border-box;
@@ -35,6 +35,7 @@ input {
   }
 }
 
+// 公共logo样式
 .header-logo {
   display: inline-block;
   overflow: hidden;
@@ -47,12 +48,12 @@ input {
     height: 55px;
     &::before {
       content: "";
-      @include bgImg(55px, 55px, "../imgs/mi-logo.png", 55px);
+      @include bgImg(55px, 55px, "/imgs/mi-logo.png", 55px);
       transition: margin 0.2s;
     }
     &::after {
       content: "";
-      @include bgImg(55px, 55px, "../imgs/mi-home.png", 55px);
+      @include bgImg(55px, 55px, "/imgs/mi-home.png", 55px);
     }
     &:hover::before {
       margin-left: -55px;
