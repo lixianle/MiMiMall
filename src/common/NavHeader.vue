@@ -107,7 +107,7 @@ export default {
     return {
       phoneList: [],
       redmiList: [],
-      tvLixt: [],
+      tvList: [],
     };
   },
   computed: {
