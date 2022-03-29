@@ -177,7 +177,6 @@ export default {
         display: flex;
         align-items: center;
         padding-bottom: 60px;
-        border-bottom: 1px solid #e5e5e5;
         .icon-succ {
           @include wH(90px, 90px);
           margin-right: 40px;
@@ -224,6 +223,7 @@ export default {
       }
       .item-detail {
         padding: 47px 0 0 130px;
+        border-top: 1px solid #e5e5e5;
         font-size: $fontJ;
         .item {
           margin-bottom: 19px;

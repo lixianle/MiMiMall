@@ -10,7 +10,7 @@ module.exports = {
           "/api": "",
         },
       },
-      // mock数据
+      // mock数据，有后端接口可改
       "/mock": {
         target: "http://localhost:8080",
         // changeOrigin: true,

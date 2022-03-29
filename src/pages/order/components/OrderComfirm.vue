@@ -432,7 +432,7 @@ export default {
         padding: 20px 0 8px;
         font-size: $fontG;
         color: $colorB;
-        @include border();
+        border-bottom: 1px solid #e5e5e5;
       }
       .pro-list {
         .list {
@@ -442,11 +442,11 @@ export default {
           font-size: $fontK;
           color: $colorB;
           font-weight: 500;
-          @include border();
+          border-bottom: 1px solid #e5e5e5;
           .list-name {
             flex: 6;
             img {
-              @include wH(30px);
+              @include wH(30px, 30px);
               vertical-align: middle;
             }
           }

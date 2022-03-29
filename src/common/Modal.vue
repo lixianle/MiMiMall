@@ -54,8 +54,8 @@ export default {
       type: String,
       default: "from",
     },
-    title: String,
-    btnType: String,
+    title: String, // 模态框标题
+    btnType: String, // 1 确认  2 取消  3 确认，取消
     sureText: {
       type: String,
       default: "确定",

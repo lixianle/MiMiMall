@@ -115,7 +115,11 @@ export default {
       return this.$store.state.username;
     },
     cartCount() {
+      // if (this.$store.state.username) {
       return this.$store.state.cartCount;
+      // } else {
+      // return 0;
+      // }
     },
   },
   mounted() {
