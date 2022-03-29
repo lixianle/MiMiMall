@@ -51,22 +51,22 @@ const routes = [
     component: Order,
     children: [
       {
-        path: "/list",
+        path: "list",
         name: "OrderList",
         component: OrderList,
       },
       {
-        path: "/comfirm",
+        path: "comfirm",
         name: "OrderComfirm",
         component: OrderComfirm,
       },
       {
-        path: "/pay",
+        path: "pay",
         name: "OrderPay",
         component: OrderPay,
       },
       {
-        path: "/alipay",
+        path: "alipay",
         name: "AliPay",
         component: AliPay,
       },
