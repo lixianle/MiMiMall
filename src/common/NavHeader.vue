@@ -48,11 +48,43 @@
           </div>
           <div class="item-menu">
             <span class="title">红米手机</span>
-            <div class="children"></div>
+            <div class="children">
+              <ul>
+                <li
+                  v-for="(item, index) in redmiList"
+                  :key="index"
+                  class="product"
+                >
+                  <a :href="'/#/product/' + item.id" target="_blank">
+                    <div class="pro-img">
+                      <img :src="item.mainImage" :alt="item.subtitle" />
+                    </div>
+                    <div class="pro-name">{{ item.name }}</div>
+                    <div class="pro-price">{{ currency(item.price) }}</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="item-menu">
             <span class="title">电视</span>
-            <div class="children"></div>
+            <div class="children">
+              <ul>
+                <li
+                  v-for="(item, index) in tvList"
+                  :key="index"
+                  class="product"
+                >
+                  <a :href="'/#/product/' + item.id" target="_blank">
+                    <div class="pro-img">
+                      <img :src="item.mainImage" :alt="item.subtitle" />
+                    </div>
+                    <div class="pro-name">{{ item.name }}</div>
+                    <div class="pro-price">{{ currency(item.price) }}</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="header-search">
@@ -68,11 +100,14 @@
 
 <script>
 import { getProductList } from "../api/index";
+import { getRedmiList, getTvList } from "../api2/index";
 export default {
   name: "NavHeader",
   data() {
     return {
       phoneList: [],
+      redmiList: [],
+      tvLixt: [],
     };
   },
   computed: {
@@ -87,6 +122,16 @@ export default {
     getProductList().then((res) => {
       if (res.list) {
         this.phoneList = res.list;
+      }
+    });
+    getRedmiList().then((res) => {
+      if (res.list) {
+        this.redmiList = res.list;
+      }
+    });
+    getTvList().then((res) => {
+      if (res.list) {
+        this.tvList = res.list;
       }
     });
   },
@@ -120,6 +165,7 @@ export default {
         // });
     },
     */
+    // 金额格式化
     currency(val) {
       if (!val) return "0.00";
       return "￥" + parseFloat(val).toFixed(2) + "元";

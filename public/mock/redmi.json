@@ -1,0 +1,61 @@
+{
+  "status": 0,
+  "data": {
+    "list": [
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/header-redmi.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/header-redmi.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/header-redmi.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/header-redmi.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/header-redmi.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/header-redmi.jpg",
+        "status":1,
+        "price": 7199.22
+      }
+    ]
+  }
+}

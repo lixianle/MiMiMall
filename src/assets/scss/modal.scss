@@ -17,17 +17,16 @@
     top: -100%;
   }
   .modal-dialog{
-    @include position(absolute, 40%, 50%, 660px, auti);
+    @include position(absolute, 40%, 50%, 660px, auto);
     transform: translate(-50%, -50%);
     background-color: $colorG;
     .modal-header{
-      height: 60px;
-      line-height: 60px;
+      @include hL(60px);
       background-color: $colorJ;
       padding: 0 25px;
       font-size: $fontI;
       .icon-close{
-        @include positionImg(absolute, 23px, 25px, 14px, 14px, '../imgs/icon-close.png');
+        @include positionImg(absolute, 23px, 25px, 14px, 14px, '/imgs/icon-close.png');
         transition: transform .3s;
         &:hover{
           transform: scale(1.5);
@@ -39,8 +38,7 @@
       font-size: 14px;
     }
     .modal-footer{
-      height: 82px;
-      line-height: 82px;
+      @include hL(82px);
       text-align: center;
       background-color: $colorJ;
     }

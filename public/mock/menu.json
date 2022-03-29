@@ -1,0 +1,309 @@
+{
+  "status": 0,
+  "data": {
+    "phoneList": [
+      [
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 31, "img": "/imgs/item-box-2.png", "name": "小米8青春版" },
+        { "id": 32, "img": "/imgs/item-box-3.jpg", "name": "Redmi K20 Pro" },
+        { "id": 33, "img": "/imgs/item-box-4.jpg", "name": "移动4G专区" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9t" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" },
+        { "id": 30, "img": "/imgs/item-box-1.png", "name": "小米CC9" }
+      ]
+    ],
+    "tvList": [
+      [
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" },
+        { "id": 30, "img": "/imgs/menu-tv.jpg", "name": "Redmi智能电视X65" }
+      ]
+    ],
+    "padList": [
+      [
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" },
+        { "id": 30, "img": "/imgs/menu-pad.png", "name": "Redmi Book Pro 14 2022" }
+      ]
+    ],
+    "houseList": [
+      [
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" },
+        { "id": 30, "img": "/imgs/menu-house.jpg", "name": "小米冰箱" }
+      ]
+    ],
+    "travelList": [
+      [
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" },
+        { "id": 30, "img": "/imgs/menu-travel.png", "name": "小米手环" }
+      ]
+    ],
+    "aiList": [
+      [
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" },
+        { "id": 30, "img": "/imgs/menu-ai.jpg", "name": "xiaoaiyinxiang" }
+      ]
+    ],
+    "souceList": [
+      [
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" },
+        { "id": 30, "img": "/imgs/menu-souce.jpg", "name": "xiaomichongdianbao" }
+      ]
+    ],
+    "lifeList": [
+      [
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" }
+      ],
+      [
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" },
+        { "id": 30, "img": "/imgs/menu-life.jpg", "name": "xiaomibeibao" }
+      ]
+    ]
+  }
+}

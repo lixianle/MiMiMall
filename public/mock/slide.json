@@ -1,0 +1,27 @@
+{
+  "status": 0,
+  "data": {
+    "list": [
+      {
+        "id": "45",
+        "img": "/imgs/slider/slide-1.jpg"
+      },
+      {
+        "id": "46",
+        "img": "/imgs/slider/slide-2.jpg"
+      },
+      {
+        "id": "47",
+        "img": "/imgs/slider/slide-3.jpg"
+      },
+      {
+        "id": "48",
+        "img": "/imgs/slider/slide-4.jpg"
+      },
+      {
+        "id": "49",
+        "img": "/imgs/slider/slide-5.jpg"
+      }
+    ]
+  }
+}

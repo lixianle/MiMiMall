@@ -10,6 +10,14 @@ module.exports = {
           "/api": "",
         },
       },
+      // mock数据
+      "/mock": {
+        target: "http://localhost:8080",
+        // changeOrigin: true,
+        pathRewrite: {
+          "/mock": "/mock",
+        },
+      },
     },
   },
 };

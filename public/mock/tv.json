@@ -1,0 +1,61 @@
+{
+  "status": 0,
+  "data": {
+    "list": [
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi Tv",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/menu-tv.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi Tv",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/menu-tv.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi Tv",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/menu-tv.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi Tv",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/menu-tv.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi Tv",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/menu-tv.jpg",
+        "status":1,
+        "price": 7199.22
+      },
+      {
+        "id": 1,
+        "categoryId": 3,
+        "name": "RedMi Tv",
+        "subtitle": "双十一促销",
+        "mainImage": "/imgs/menu-tv.jpg",
+        "status":1,
+        "price": 7199.22
+      }
+    ]
+  }
+}

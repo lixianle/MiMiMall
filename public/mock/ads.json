@@ -1,0 +1,23 @@
+{
+  "status": 0,
+  "data": {
+    "list": [
+      {
+        "id": 33,
+        "img": "/imgs/ads/ads-1.png"
+      },
+      {
+        "id": 34,
+        "img": "/imgs/ads/ads-2.jpg"
+      },
+      {
+        "id": 35,
+        "img": "/imgs/ads/ads-3.png"
+      },
+      {
+        "id": 36,
+        "img": "/imgs/ads/ads-4.jpg"
+      }
+    ]
+  }
+}
