@@ -110,7 +110,6 @@
             </li>
           </ul>
         </div>
-        <!-- 请求没回时，轮播容器会塌陷，待解决 -->
         <swiper
           :modules="modules"
           :slides-per-view="1"
@@ -372,11 +371,11 @@ export default {
         }
       }
       .swiper {
+        height: 451px;
         .swiper-button-prev {
           left: 274px;
         }
         .swiper-slide {
-          height: 451px;
           img {
             @include wH(100%, 451px);
           }
