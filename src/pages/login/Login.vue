@@ -1,10 +1,13 @@
 <template>
   <div class="login">
     <div class="container">
-      <a href="/#/index">
-        <!-- 先用图片 -->
-        <img src="/imgs/login-logo.png" alt="" />
-      </a>
+      <div class="header-logo">
+        <a href="/#/index"></a>
+      </div>
+      <div class="header-title">
+        <h2>小米商城</h2>
+        <p>让每个人都能享受科技的乐趣</p>
+      </div>
     </div>
     <div class="wrapper">
       <div class="container">
@@ -43,57 +46,46 @@
 <script>
 import NavFooter from "@/common/NavFooter.vue";
 import { toLogin, toRegister } from "@/api/index";
+import { ref } from "@vue/reactivity";
+import { useStore } from "vuex";
+import { useRouter } from "vue-router";
 export default {
   name: "Login",
   components: {
     NavFooter,
   },
-  data() {
-    return {
-      username: "",
-      password: "",
-      userId: "",
-    };
-  },
-  methods: {
-    // 全局$axios登录
-    /*login() {
-      let { username, password } = this;
-      this.$axios
-        .post("/api/user/login", {
-          username,
-          password,
-        })
-        .then((res) => {
-          document.cookie = "userId=" + res.id;
-          this.$store.dispatch("saveUserName", res.username);
-          console.log("123");
-          this.$router.push("/index");
-        });
-    },*/
-    login() {
-      let { username, password } = this;
-      toLogin(username, password).then((res) => {
+  setup() {
+    let username = ref("");
+    let password = ref("");
+    let userId = ref("");
+    let store = useStore();
+    let router = useRouter();
+    const login = () => {
+      if (!username.value || !password.value) {
+        alert("请输入正确的用户名和密码");
+        return;
+      }
+      toLogin(username.value, password.value).then((res) => {
         document.cookie = "userId=" + res.id;
-        this.$store.dispatch("saveUserName", res.username);
-        this.$router.push("/index");
-      });
-    },
-    // 全局$axios注册
-    /*register() {
-      this.$axios
-        .post("/api/user/register", {
-          username: "admin",
-          password: "admin",
-          email: "admin@163.com",
-        })
-        .then(() => {
-          alert("注册成功！");
+        store.commit("saveUserName", res.username);
+        router.push({
+          name: "HomeIndex",
+          params: {
+            from: "login",
+          },
         });
-    },*/
-    register() {
+      });
+    };
+    const register = () => {
       toRegister();
-    },
+    };
+    return {
+      username,
+      password,
+      userId,
+      login,
+      register,
+    };
   },
 };
 </script>
@@ -105,9 +97,21 @@ export default {
 
 .login {
   & > .container {
+    display: flex;
+    align-items: center;
     height: 113px;
-    img {
-      @include wH(auto, 100%);
+    .header-title {
+      padding-left: 20px;
+      h2 {
+        padding-bottom: 10px;
+        font-size: 40px;
+        font-weight: 600;
+      }
+      p {
+        font-size: $fontJ;
+        color: $colorD;
+        font-weight: 200;
+      }
     }
   }
   .wrapper {
