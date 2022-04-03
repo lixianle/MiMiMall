@@ -101,6 +101,7 @@
 <script>
 import { ref } from "@vue/reactivity";
 import { useRouter } from "vue-router";
+import { getUser, getCartCount } from "../api/index";
 import { getProductList } from "../api/index";
 import { getRedmiList, getTvList } from "../api2/index";
 import { useStore } from "vuex";
@@ -121,7 +122,12 @@ export default {
       return store.state.cartCount;
     });
 
+    const getFirstCartCount = () => {
+      console.log(store.state.cartCount);
+    };
+
     onMounted(() => {
+      getFirstCartCount();
       getProductList().then((res) => {
         if (res.list) {
           phoneList.value = res.list;
@@ -160,6 +166,18 @@ export default {
       goToCart,
       currency,
     };
+  },
+  mounted() {
+    // 登录/刷新拉取username, cartCount
+    if (document.cookie) {
+      getUser().then((res) => {
+        this.$store.dispatch("saveUserName", res.username);
+      });
+      getCartCount().then((res) => {
+        console.log(res);
+        this.$store.dispatch("saveCartCount", res);
+      });
+    }
   },
 };
 </script>

@@ -25,10 +25,17 @@
               type="password"
               placeholder="请输入密码"
               v-model="password"
+              @keyup.enter="login"
             />
           </div>
           <div class="btn-box">
-            <a href="javascript:;" class="btn" @click="login">登录</a>
+            <a
+              href="javascript:;"
+              class="btn"
+              @click="login"
+              @keyup.enter="login"
+              >登录</a
+            >
           </div>
           <div class="tips">
             <div class="sms" @click="register">手机短信登录/注册</div>
@@ -68,12 +75,7 @@ export default {
       toLogin(username.value, password.value).then((res) => {
         document.cookie = "userId=" + res.id;
         store.commit("saveUserName", res.username);
-        router.push({
-          name: "HomeIndex",
-          params: {
-            from: "login",
-          },
-        });
+        router.push({ name: "HomeIndex" });
       });
     };
     const register = () => {
