@@ -9,13 +9,13 @@
           <a href="javascript:;">协议规则</a>
         </div>
         <div class="topbar-user">
-          <a href="javascript:;" v-if="userName">{{ userName }}</a>
-          <a href="/#/order/list" v-if="userName">我的订单</a>
-          <a href="javascript:;" v-if="!userName" @click="login">登录</a>
-          <a href="javascript:;" v-if="!userName">注册</a>
+          <a href="javascript:;" v-if="getUserName">{{ getUserName }}</a>
+          <a href="/#/order/list" v-if="getUserName">我的订单</a>
+          <a href="javascript:;" v-if="!getUserName" @click="login">登录</a>
+          <a href="javascript:;" v-if="!getUserName">注册</a>
           <a href="javascript:;" class="my-cart" @click="goToCart">
             <span class="icon-cart"></span>
-            购物车({{ cartCount }})
+            购物车({{ getCartCount }})
           </a>
         </div>
       </div>
@@ -99,81 +99,67 @@
 </template>
 
 <script>
+import { ref } from "@vue/reactivity";
+import { useRouter } from "vue-router";
 import { getProductList } from "../api/index";
 import { getRedmiList, getTvList } from "../api2/index";
+import { useStore } from "vuex";
+import { computed, onMounted } from "@vue/runtime-core";
 export default {
   name: "NavHeader",
-  data() {
-    return {
-      phoneList: [],
-      redmiList: [],
-      tvList: [],
+  setup() {
+    const phoneList = ref([]);
+    const redmiList = ref([]);
+    const tvList = ref([]);
+    const router = useRouter();
+    const store = useStore();
+
+    const getUserName = computed(() => {
+      return store.state.username;
+    });
+    const getCartCount = computed(() => {
+      return store.state.cartCount;
+    });
+
+    onMounted(() => {
+      getProductList().then((res) => {
+        if (res.list) {
+          phoneList.value = res.list;
+        }
+      });
+      getRedmiList().then((res) => {
+        if (res.list) {
+          redmiList.value = res.list;
+        }
+      });
+      getTvList().then((res) => {
+        if (res.list) {
+          tvList.value = res.list;
+        }
+      });
+    });
+
+    const login = () => {
+      router.push("/login");
     };
-  },
-  computed: {
-    userName() {
-      return this.$store.state.username;
-    },
-    cartCount() {
-      // if (this.$store.state.username) {
-      return this.$store.state.cartCount;
-      // } else {
-      // return 0;
-      // }
-    },
-  },
-  mounted() {
-    getProductList().then((res) => {
-      if (res.list) {
-        this.phoneList = res.list;
-      }
-    });
-    getRedmiList().then((res) => {
-      if (res.list) {
-        this.redmiList = res.list;
-      }
-    });
-    getTvList().then((res) => {
-      if (res.list) {
-        this.tvList = res.list;
-      }
-    });
-  },
-  methods: {
-    login() {
-      this.$router.push("/login");
-    },
-    goToCart() {
-      this.$router.push("/cart");
-    },
-    // 全局注册$axios
-    /*
-    getProductList() {
-      this.$axios
-        .get("/api/products", {
-          params: {
-            categoryId: "100012",
-            pageSize: 6,
-          },
-        })
-        .then((res) => {
-          if (res.list) {
-            this.phoneList = res.list;
-          }
-        });
-      //未设置pageSize = 6
-        // .then((res) => {
-        //   if (res.list.length > 6) {
-        //     this.phoneList = res.list.slice(0, 6);
-        //   }
-        // });
-    },
-    */
-    // 金额格式化
-    currency(val) {
+    const goToCart = () => {
+      router.push("/cart");
+    };
+    const currency = (val) => {
       if (!val) return "0.00";
       return "￥" + parseFloat(val).toFixed(2) + "元";
-    },
+    };
+
+    return {
+      phoneList,
+      redmiList,
+      tvList,
+      getCartCount,
+      getUserName,
+      login,
+      goToCart,
+      currency,
+    };
   },
 };
 </script>
