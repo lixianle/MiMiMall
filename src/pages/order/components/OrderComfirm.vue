@@ -312,7 +312,7 @@ export default {
           errMsg = "请输入正确的邮编";
         }
         if (errMsg) {
-          alert(errMsg);
+          this.$errorMsg(errMsg);
           return;
         }
         params = {
@@ -330,7 +330,7 @@ export default {
         getAddressList().then((res) => {
           this.list = res.list;
         });
-        alert("操作成功！");
+        this.$successMsg("操作成功！");
       });
     },
     closeModal() {
@@ -342,7 +342,7 @@ export default {
     orderSubmit() {
       let item = this.list[this.checkIndex];
       if (!item) {
-        alert("请选择收货地址");
+        this.$errorMsg("请选择收货地址");
         return;
       }
       toOrderSubmit(item.id).then((res) => {

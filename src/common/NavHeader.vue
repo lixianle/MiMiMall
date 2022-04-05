@@ -122,12 +122,7 @@ export default {
       return store.state.cartCount;
     });
 
-    const getFirstCartCount = () => {
-      console.log(store.state.cartCount);
-    };
-
     onMounted(() => {
-      getFirstCartCount();
       getProductList().then((res) => {
         if (res.list) {
           phoneList.value = res.list;

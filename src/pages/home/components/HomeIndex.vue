@@ -211,6 +211,7 @@ import ServiceBar from "@/common/ServiceBar.vue";
 import Modal from "@/common/Modal.vue";
 import { init, toAddCart } from "@/api/index";
 import { getMenuList, getSlideList, getAdsList } from "@/api2/index";
+// import { useMsg } from "@/util/plugin-1/msg";
 export default {
   name: "HomeIndex",
   components: {
@@ -220,6 +221,9 @@ export default {
     Modal,
   },
   setup() {
+    // const msg = useMsg();
+    // msg("hello world");
+
     return {
       modules: [Navigation, Autoplay, Pagination, EffectCube],
     };
@@ -267,22 +271,6 @@ export default {
     });
   },
   methods: {
-    // 全局$axios获取
-    /*init() {
-      this.$axios
-        .get("/api/products", {
-          params: {
-            categoryId: 100012,
-            pageSize: 14,
-          },
-        })
-        .then((res) => {
-          res.list = res.list.slice(6, 14);
-          this.phoneList = [res.list.slice(0, 4), res.list.slice(4, 8)];
-          // console.log(this.phoneList);
-        });
-    },*/
-    // 加入购物车
     addCart(id) {
       toAddCart(id, true)
         .then((res) => {
@@ -371,7 +359,7 @@ export default {
         }
       }
       .swiper {
-        height: 451px;
+        height: 453px;
         .swiper-button-prev {
           left: 274px;
         }

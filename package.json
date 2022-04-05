@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "core-js": "^3.6.5",
+    "element-plus": "^2.1.8",
     "qrcode": "^1.5.0",
     "swiper": "^8.0.7",
     "vue": "^3.0.0",
@@ -30,6 +31,8 @@
     "eslint-plugin-vue": "^7.0.0",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "unplugin-auto-import": "^0.6.9",
+    "unplugin-vue-components": "^0.18.5"
   }
 }

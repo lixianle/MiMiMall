@@ -56,6 +56,7 @@ import { toLogin, toRegister } from "@/api/index";
 import { ref } from "@vue/reactivity";
 import { useStore } from "vuex";
 import { useRouter } from "vue-router";
+import { getCurrentInstance } from "@vue/runtime-core";
 export default {
   name: "Login",
   components: {
@@ -67,9 +68,10 @@ export default {
     let userId = ref("");
     let store = useStore();
     let router = useRouter();
+    let { proxy } = getCurrentInstance();
     const login = () => {
       if (!username.value || !password.value) {
-        alert("请输入正确的用户名和密码");
+        proxy.$errorMsg("请输入正确的用户名和密码");
         return;
       }
       toLogin(username.value, password.value).then((res) => {

@@ -20,13 +20,13 @@ $axios.interceptors.response.use(
       }
       return Promise.reject(res);
     } else {
-      alert(res.msg);
+      this.$errorMsg(res.msg);
       return Promise.reject(res);
     }
   },
   (error) => {
     let res = error.response;
-    alert(res.data.message);
+    this.$errorMsg(res.data.message);
     return Promise.reject(error);
   }
 );
