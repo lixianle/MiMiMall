@@ -10,6 +10,11 @@ export function getProductList() {
   });
 }
 
+// NavHeader退出
+export function toLogout() {
+  return $axios.post("/user/logout");
+}
+
 // Index获取商品
 export function init() {
   return $axios.get("/products", {

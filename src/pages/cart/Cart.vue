@@ -101,17 +101,20 @@ export default {
     };
   },
   mounted() {
+    // 加载更新数据
     getCartList().then((res) => {
       this.renderData(res);
     });
   },
   methods: {
+    // 全选方法
     toggleAll() {
       let url = this.allChecked ? "/carts/unSelectAll" : "/carts/selectAll";
       toggleGetCartList(url).then((res) => {
         this.renderData(res);
       });
     },
+    // 更新数据方法
     renderData(res) {
       this.list = res.cartProductVoList || [];
       this.allChecked = res.selectedAll;
@@ -120,6 +123,7 @@ export default {
         return item.productSelected;
       });
     },
+    // 更新数量方法 item 更新的商品 type + 还是 -
     updateCart(item, type) {
       let quantity = item.quantity;
       let selected = item.productSelected;
@@ -142,13 +146,14 @@ export default {
         this.renderData(res);
       });
     },
-    // 后面删除可加一个弹框modal,待做
+    // 删除商品方法
     delProduct(item) {
       toDelProduct(item.productId).then((res) => {
         this.renderData(res);
         this.$successMsg("删除成功！");
       });
     },
+    // 跳转订单确认页面方法
     order() {
       let isChecked = this.list.every((item) => {
         return !item.productSelected;

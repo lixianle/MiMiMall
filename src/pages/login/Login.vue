@@ -18,7 +18,12 @@
             <span>扫码登录</span>
           </h3>
           <div class="input">
-            <input type="text" placeholder="请输入帐号" v-model="username" />
+            <input
+              type="text"
+              placeholder="请输入帐号"
+              v-model="username"
+              @keyup.enter="login"
+            />
           </div>
           <div class="input">
             <input
@@ -29,13 +34,7 @@
             />
           </div>
           <div class="btn-box">
-            <a
-              href="javascript:;"
-              class="btn"
-              @click="login"
-              @keyup.enter="login"
-              >登录</a
-            >
+            <a href="javascript:;" class="btn" @click="login">登录</a>
           </div>
           <div class="tips">
             <div class="sms" @click="register">手机短信登录/注册</div>
